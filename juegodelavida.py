@@ -2,10 +2,10 @@
 import copy, random, sys, time
 
 # Constantes
-ANCHO = 79   # Ancho de la cuadrícula
-ALTO = 20  # Alto de la cuadrícula
+ANCHO = int(input("Indica el ancho de la cuadricula"))   # Ancho de la cuadrícula
+ALTO = int(input("Indica el alto de la cuadricula"))  # Alto de la cuadrícula
 
-VIVO = 'O'  # Carácter para la celda viva
+VIVO = input("Elige el caracter para indicar que la celula está viva")  # Carácter para la celda viva
 MUERTO = ' '   # Carácter para la celda muerta
 
 # Las variables celulas y siguientesCelulas son diccionarios que contienen
